@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context="com.example.pyoectotesis.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingBottom="40pt"
+        >
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sm" />
+
+
+        <TextView
+            android:id="@+id/txtSlogan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Smart Meter"
+            android:textColor="@android:color/black"
+            android:textSize="15pt"
+            android:paddingBottom="10pt"
+            />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ith"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSignUp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="Registrarse"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            app:cornerRadius="5dp"
+            app:fButtonColor="#ACCB4C"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="3dp" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSignIn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="Iniciar Sesion"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            app:cornerRadius="5dp"
+            app:fButtonColor="#ACCB4C"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="3dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

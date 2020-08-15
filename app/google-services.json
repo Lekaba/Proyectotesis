@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "984004251667",
+    "firebase_url": "https://proyectotesis-899bb.firebaseio.com",
+    "project_id": "proyectotesis-899bb",
+    "storage_bucket": "proyectotesis-899bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984004251667:android:7bd9ba0a68c127e0bf2fe6",
+        "android_client_info": {
+          "package_name": "com.example.pyoectotesis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984004251667-qqm7ru2avo6ner5l1nok6kf9rpjbemv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pyoectotesis",
+            "certificate_hash": "d5d2a46df6548292c90227997b285fc422c9b0f7"
+          }
+        },
+        {
+          "client_id": "984004251667-82hjhes2g2f1lk123jtq4dgj57mgc49u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIkY07yKJ2R-oyUbpwaqWWNZXdJ_-RhAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984004251667-82hjhes2g2f1lk123jtq4dgj57mgc49u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
